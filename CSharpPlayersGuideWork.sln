@@ -11,13 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThingNamer3000", "ThingName
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuyingInventory", "BuyingInventory\BuyingInventory.csproj", "{EC13BD10-4DA5-4ACB-BA24-55EC8B62516A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePrototype", "ThePrototype\ThePrototype.csproj", "{37259098-4AE0-43AB-8823-6E2898A24535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThePrototype", "ThePrototype\ThePrototype.csproj", "{37259098-4AE0-43AB-8823-6E2898A24535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicCannon", "MagicCannon\MagicCannon.csproj", "{D1AD9A99-62D9-4934-ADE0-D972520CFB86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicCannon", "MagicCannon\MagicCannon.csproj", "{D1AD9A99-62D9-4934-ADE0-D972520CFB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplicatorOfDTo", "ReplicatorOfDTo\ReplicatorOfDTo.csproj", "{5B0A0273-78C0-41B7-8468-5FB8418BD3F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplicatorOfDTo", "ReplicatorOfDTo\ReplicatorOfDTo.csproj", "{5B0A0273-78C0-41B7-8468-5FB8418BD3F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LawsOfFreach", "LawsOfFreach\LawsOfFreach.csproj", "{59AF7249-0623-4F94-BFA8-65D1D399681C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LawsOfFreach", "LawsOfFreach\LawsOfFreach.csproj", "{59AF7249-0623-4F94-BFA8-65D1D399681C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakingANumber", "TakingANumber\TakingANumber.csproj", "{9397A886-E8BE-402C-A031-359D2DF98E76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Countdown", "Countdown\Countdown.csproj", "{0D2C13BB-C7D6-4118-959C-B5B48596684E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuntingTheManticore", "HuntingTheManticore\HuntingTheManticore.csproj", "{6972863A-A9BE-4511-8274-6716BFABE298}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{59AF7249-0623-4F94-BFA8-65D1D399681C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59AF7249-0623-4F94-BFA8-65D1D399681C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59AF7249-0623-4F94-BFA8-65D1D399681C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9397A886-E8BE-402C-A031-359D2DF98E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9397A886-E8BE-402C-A031-359D2DF98E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9397A886-E8BE-402C-A031-359D2DF98E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9397A886-E8BE-402C-A031-359D2DF98E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2C13BB-C7D6-4118-959C-B5B48596684E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2C13BB-C7D6-4118-959C-B5B48596684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2C13BB-C7D6-4118-959C-B5B48596684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2C13BB-C7D6-4118-959C-B5B48596684E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6972863A-A9BE-4511-8274-6716BFABE298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6972863A-A9BE-4511-8274-6716BFABE298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6972863A-A9BE-4511-8274-6716BFABE298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6972863A-A9BE-4511-8274-6716BFABE298}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

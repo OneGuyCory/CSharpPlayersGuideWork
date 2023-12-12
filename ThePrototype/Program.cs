@@ -11,15 +11,15 @@ Indicate whether the user guessed too high, too low, or guessed right.
 
 Loop until they get it right, then end the program */
 
-int pilotNumber;
+int pilotNumber = AskForNumberInRange("User 1, Enter a number between 0 and 100: ", 1, 100);
 int hunterNumber;
 
-do
-{
-    Console.Write("User 1, Enter a number between 0 and 100: ");
-    pilotNumber = Convert.ToInt32(Console.ReadLine());
-}
-while (pilotNumber < 0 || pilotNumber > 100);
+//do
+//{
+//    Console.Write("User 1, Enter a number between 0 and 100: ");
+//    pilotNumber = Convert.ToInt32(Console.ReadLine());
+//}
+//while (pilotNumber < 0 || pilotNumber > 100);
 Console.Clear();
 
 Console.WriteLine("User 2, guess the number");
@@ -42,3 +42,15 @@ do
 
 }
 while (hunterNumber != pilotNumber);
+
+int AskForNumberInRange(string text, int min, int max)
+{
+    
+    do
+    {
+        Console.Write(text);
+        pilotNumber = Convert.ToInt32(Console.ReadLine());
+    }
+    while (pilotNumber < min || pilotNumber > max);
+    return pilotNumber;
+}

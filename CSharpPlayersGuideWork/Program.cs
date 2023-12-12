@@ -1,4 +1,7 @@
-﻿
+﻿static void Main(string[] args)
+{
+     
+}
 
 
 //Variable Shop - 14 types of common variables
