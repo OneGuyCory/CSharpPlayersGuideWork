@@ -10,6 +10,7 @@ Arrow GetArrow()
     return new Arrow(arrowhead, fletching, length);
 }
 
+// Gets the arrow type and switch statement sets the type to matching Enum
 Arrowhead GetArrowType()
 {
     Console.Write("What arrow type would you like to use, steel, wood, or obsidian? ");
@@ -23,9 +24,10 @@ Arrowhead GetArrowType()
     };
 }
 
+//get fletching type and switch statement sets it to matching enum
 Fletching GetFletching()
 {
-    Console.Write("Which fletching type would you like to use, platic, turkey feathers, or goose feathers? ");
+    Console.Write("Which fletching type would you like to use, plastic, turkey feathers, or goose feathers? ");
     string fletchType = Console.ReadLine().ToLower();
 
     return fletchType switch
@@ -36,19 +38,24 @@ Fletching GetFletching()
     };
 }
 
+// gets arrow length, insures its above 60 and below 100
 float GetLength()
 {
-    Console.Write("How long would you like your arrow, between 60 - 100 cm? ");
-    float arrowLength = float.Parse(Console.ReadLine());
+    float arrowLength = 0;
 
-    return arrowLength;
+    while (arrowLength > 100 || arrowLength < 60)
+    {
+        Console.Write("How long would you like your arrow, between 60 - 100 cm? ");
+        arrowLength = float.Parse(Console.ReadLine());
+    }   
+        return arrowLength;
 }
 
 class Arrow
 {
-    public Arrowhead _arrowType;
-    public Fletching _fletchingType;
-    public float _length;
+    private Arrowhead _arrowType;
+    private Fletching _fletchingType;
+    private float _length;
 
     public Arrow(Arrowhead arrowType, Fletching fletchingType, float length)
     {
@@ -57,6 +64,8 @@ class Arrow
         _length = length;
     }
 
+
+    //gets the cost, switch statement takes in the enum type and sets the matching value
     public float GetCost()
     {
         float arrowHeadCost = _arrowType switch
